@@ -1,0 +1,43 @@
+.preview {
+  border: 2px solid;
+  min-height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+}
+
+.placeholder-dark::placeholder {
+  color: #ccc;
+}
+
+.placeholder-light::placeholder {
+  color: #999;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+}
+
+.alert {
+  position: absolute;
+  width: 20%;
+  top: 9%;
+  right: 8%;
+}
+
+@media only screen and (max-width: 992px) {
+  #changeMode {
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+  }
+
+  .alert {
+      top: 40%;
+      width: 80%;
+      right: 10%;
+  }
+}
